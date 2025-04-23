@@ -16,8 +16,7 @@ def sort_list(items, ascending=True):
 
     return sorted(items, reverse=(not ascending))
 
-##Remueve los items duplicados de la lista
-def remove_duplicates_from_list(items):
+##Remueve los elementos duplicados de la lista
     return list(set(items))
 
 ##Bucle para leer el archivo y llamar las funciones definidas antes
