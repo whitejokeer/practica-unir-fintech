@@ -11,6 +11,21 @@ DEFAULT_DUPLICATES = False
 
 ##Ordena la lista en orden ascendente
 def sort_list(items, ascending=True):
+    """
+    Ordena una lista de elementos.
+
+    Args:
+        items (list): Lista de elementos a ordenar.
+        ascending (bool, opcional): Si True, ordena de forma ascendente. 
+                                     Si False, ordena de forma descendente. 
+                                     Por defecto es True.
+
+    Returns:
+        list: Una nueva lista ordenada según el parámetro 'ascending'.
+
+    Raises:
+        RuntimeError: Si 'items' no es una lista.
+    """
     if not isinstance(items, list):
         raise RuntimeError(f"cant order {type(items)}")
 

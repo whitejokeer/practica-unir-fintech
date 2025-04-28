@@ -1,6 +1,6 @@
 # Repo para EIEC - DevOps - UNIR
 
-Este repositorio nos servirá para demostrar el uso de Git en la asignatura de EIEC y muchas cosas mas.
+Este repositorio nos servirá para demostrar el uso de Git y GitHub en la asignatura de EIEC y muchas cosas mas.
 
 ---
 
@@ -54,3 +54,4 @@ También puedes usar el comando predefinido en el Makefile:
 make run
 ```
 Este comando ejecutará la aplicación usando Docker, eliminando duplicados del archivo words.txt.
+
