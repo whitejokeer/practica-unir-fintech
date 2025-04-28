@@ -2,25 +2,24 @@
 License: Apache
 Organization: UNIR
 """
-
+##Importar las librerias necesarias
 import os
 import sys
 
 DEFAULT_FILENAME = "words.txt"
 DEFAULT_DUPLICATES = False
 
-
+##Ordena la lista en orden ascendente
 def sort_list(items, ascending=True):
     if not isinstance(items, list):
         raise RuntimeError(f"cant order {type(items)}")
 
     return sorted(items, reverse=(not ascending))
 
-
-def remove_duplicates_from_list(items):
+##Remueve los elementos duplicados de la lista
     return list(set(items))
 
-
+##Bucle para leer el archivo y llamar las funciones definidas antes
 if __name__ == "__main__":
     filename = DEFAULT_FILENAME
     remove_duplicates = DEFAULT_DUPLICATES
